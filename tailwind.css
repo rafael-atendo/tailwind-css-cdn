@@ -498,6 +498,10 @@ video {
   max-width: 10rem;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .max-w-\[80\%\] {
   max-width: 80%;
 }
