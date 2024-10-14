@@ -883,3 +883,32 @@ video {
 .rounded-bl-lg {
   border-bottom-left-radius: 0.5rem /* 8px */;
 }
+
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.-mt-px {
+  margin-top: -1px;
+}
+
+.inline {
+  display: inline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:text-gray-600 {
+      --tw-text-opacity: 1;
+      color: rgb(75 85 99 / var(--tw-text-opacity)) /* #4b5563 */;
+  }
+}
+
+.bg-white\/60 {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
